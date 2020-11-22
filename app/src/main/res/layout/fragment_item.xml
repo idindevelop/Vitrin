@@ -5,7 +5,7 @@
               android:padding="@dimen/normal_padding_size"
               android:layout_height="match_parent">
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvSubCategory"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dialog_nav_height"
@@ -13,7 +13,7 @@
         android:orientation="horizontal"
         android:elevation="@dimen/elevation"/>
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvItem"
         android:background="@color/colorBackground"
         android:layout_width="match_parent"
